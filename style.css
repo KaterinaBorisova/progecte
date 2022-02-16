@@ -1,0 +1,54 @@
+.header, .image-container, .btn{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(196, 196, 180);
+}
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    box-shadow: 0 4px 8px 8px rgb(151, 144, 134);
+}
+#one, #two{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(23, 23, 49);
+    color: rgb(223, 189, 145);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 7px;
+    box-shadow: 0 4px 8px 8px rgb(151, 144, 134);
+}
+#one:hover{
+    background-color: cadetblue;
+    transition-duration: 1s;
+}
+#two:hover{
+    background-color: cadetblue;
+    transition-duration: 1s;
+}
+
+@media all and (max-width:415px) {
+    img{
+        width: 400px;
+    }
+}
+
+@media all and (max-width:375px) {
+    img{
+        width: 360px;
+    }
+}
+
+@media all and (max-width:360px) {
+    img{
+        width: 340px;
+    }
+}
+@media all and (max-width:280px) {
+    img{
+        width: 270px;
+    }
+}
